@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Prueba técnica</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <div class="container">
+        <h1>Prueba técnica</h1>
+        <div class="input-container">
+            <label for="numberInput">Secuencia de números a convertir a un arreglo:</label>
+            <input type="text" id="numberInput" placeholder="e.g., 1122" pattern="[0-9]*" inputmode="numeric">
+            <button id="processButton">Iniciar</button>
+        </div>
+        <div class="result-container">
+            <h2>Sumatoria:</h2>
+            <div id="result">Sin resultados</div>
+        </div>
+    </div>
 
 <script src="./index.js"></script>
 </body>
